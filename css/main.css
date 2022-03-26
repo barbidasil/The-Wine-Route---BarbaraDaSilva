@@ -66,6 +66,10 @@ nav ul li {
     margin: 0 20px;
 }
 
+nav ul li:hover{
+    background-color: #cf8cae;
+    transition: background-color 2s;
+}
 
 .main{
     grid-column: 1/3;
