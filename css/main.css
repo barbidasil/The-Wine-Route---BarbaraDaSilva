@@ -1,0 +1,806 @@
+/* Normalize*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+        color: black;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.container__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    width: 100%;
+    
+
+}
+
+.header{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+    margin: 0 auto;
+    
+}
+
+.logo{
+    width: 20%;
+    margin-left: 20px;
+}
+
+.navbar ul li {
+    
+    color: black;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+}
+ 
+.navbar ul li{
+    margin: 0 20px;
+}
+
+
+.main{
+    grid-column: 1/3;
+    grid-row: 2/3;
+
+}
+
+/*MISION*/
+
+.mision__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    max-width: 1080px;
+    margin: 0 auto;
+  
+}
+
+.misionimg{
+    width: 150%;
+    
+}
+
+.img__mision{
+    align-items:flex-end;
+    padding-right: 7.5%;
+    width: 100%;
+
+}
+
+.mision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    margin: 0 30% 0 0;
+
+}
+
+.mision__title{
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+    margin: 0 0 0 10% ;
+
+}
+
+/*VISION*/
+
+.vision__container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: auto;
+    background-color: #faa0b1d2;
+}
+
+.vision__tittle{
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 3em;
+    
+
+    
+}
+
+.vision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    margin: 0 20% 0 10%;
+
+}
+
+.imgcopa{
+    width: 20%;
+    margin-left: 5%;
+}
+
+/*FOOTER*/
+
+.footer{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-color: #450223;
+    height: 25vh;
+}
+
+.footer_logosrss{
+    padding-top: 20px;
+    width: 80%;
+}
+
+.copyright__footer {
+  color: white;
+    text-align: center;
+    font-size: 1em;
+  
+  
+  }
+
+  /****ABBOUT US STYLES****/
+
+  .navbar1 ul li {
+    
+    color: black;
+}
+
+.navbar1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+}
+ 
+.navbar1 ul li{
+    margin: 0 20px;
+}
+
+  .container__grid1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    width: 100%;
+    
+    }
+
+    .container__vision{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    text-align: center;
+
+    }
+
+  .container__mision{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    text-align: center;
+  }
+
+.wineSun{
+    width: 40%;
+    align-self: center;
+}
+
+.container__vision{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    background-color: #faa0b1d2;
+    text-align: center;
+}
+
+.imagen__vision{
+    width: 40%;
+    align-self: center;
+}
+
+.container__experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.sommelier{
+    width: 40%;
+    align-self: center;
+}
+
+.titulo__mision {
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.texto__mision {
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.titulo__vision{
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.texto__vision{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.titulo__experiencia {
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.texto__experiencia{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+/*****EXPERIENCIAS*****/
+
+.container__grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    width: 100%;
+    
+    
+    }
+
+  .experiencia__hotel{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    text-align: center;
+    background-color: #faa0b1d2;
+
+    }
+
+    .fachadahotel, .bañohotel, .habitacionhotel {
+        width: 30%;
+    }
+  
+  .experiencia__familia{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    text-align: center;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+.sommelier1, .parejaimg, .mesalarga {
+    width: 30%;
+}
+
+.experiencia__fabricacion{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    background-color: #faa0b1d2;
+    text-align: center;
+    
+}
+
+.experiencia__fabricaBotellas, .experiencia__fabricaImgUvas {
+    width: 40%;
+}
+
+.experiencia__gastronomica{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    grid-column: 1/3;
+    text-align: center;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+ 
+.vinosyQuesos, .tablaDegustacion ,.restaurante {
+    width: 20%;
+}
+
+.experiencia__tittle {
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.experiencia__texto {
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.fabricacion__tittle{
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.fabricacion__texto{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.familia__tittle {
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.familia__texto{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.hotel__tittle {
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.hotel__texto{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    grid-column: 1/3;
+    margin: 0 auto;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.footer__experiencias{
+    grid-column: 1/3;
+    background-color: #450223;
+    height: 15vh;
+}
+
+.experiencia__gastronomicaImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 0 0;
+}
+
+.fabricacionImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 0 0;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+.experiencia__familiaImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 0 0;
+}
+
+.experiencia__hotelImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 0 0;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+/******BODEGAS******/
+
+
+.container__grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    width: 100%;
+
+    }
+
+
+.bodega__village{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    background-color: #faa0b1d2;
+    text-align: center;
+}
+
+.village__tittle{
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.village__texto{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.containerBodegas__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 0 0;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.barrilesMetal, .barrilesRoble{
+    width: 30%;
+}
+
+.bodega__cave{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.cave__tittle{
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.cave__texto{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+.containerBodegas__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 0 0;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.copaViñedoImg, .viñedoTorreImg{
+    width: 30%;
+}
+
+
+.footer__bodegas{
+    grid-column: 1/3;
+    background-color: #450223;
+    height: 15vh;
+}
+
+
+
+/******CONTACTO******/
+
+.container__grid3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    width: 100%;
+
+    }
+
+#Contacto{
+    padding: 0% 10% 0% 30%;
+}
+
+#Comentarios{
+    height: 25vh;
+
+}
+
+.contacto__main{
+    grid-column: 1/3;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.contacto__tittle{
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.contacto__texto{
+    text-align: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+  /*MEDIAS*/
+
+@media screen and (max-width: 480px) {
+    
+    .container__grid3{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        width: 100%;
+    
+        }
+
+
+    .container__grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    
+    }
+
+
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .logo{
+        width: 20%;
+        margin-left: 20px;
+    }
+    
+    .navbar ul li {
+        
+        color: black;
+    }
+    
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1em;
+    }
+     
+    .navbar ul li{
+        margin: 0 20px;
+    }
+    
+    nav ul li:hover{
+        background-color: #cf8cae;
+    }
+    
+.img__mision{
+    align-items:flex-end;
+    padding-right: 7.5%;
+    width: 100%; max-width: 50%;
+
+}
+
+.mision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1em;
+    margin: 0 10% 0 0;
+
+}
+
+.mision__title{
+    font-family: 'Dancing Script', cursive;
+    flex-direction: row;
+    font-size: 1em;
+    margin: 0 0 0 10% ;
+
+}
+
+.vision__tittle{
+    font-family: 'Dancing Script', cursive;
+    flex-direction: row;
+    font-size: 1em;
+    padding: 0 20% 0 0;
+    
+
+    
+}
+
+.vision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1em;
+    margin: 0 10% 0 5%;
+
+}
+
+
+.imgcopa{
+    width: 100%; max-width: 30%;
+    margin-left: 5%;
+}
+
+.footer{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-color: #450223;
+    height: 15vh;
+}
+
+        
+      
+}
+
+@media screen and (max-width: 768px) {
+
+    .container__grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    
+    }
+
+
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .logo{
+        width: 20%;
+        margin-left: 20px;
+    }
+    
+    .navbar ul li {
+        
+        color: black;
+    }
+    
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1em;
+    }
+     
+    .navbar ul li{
+        margin: 0 20px;
+    }
+    
+    nav ul li:hover{
+        background-color: #cf8cae;
+    }
+    
+.img__mision{
+    align-items:flex-end;
+    padding-right: 7.5%;
+    width: 100%; max-width: 60%;
+
+}
+
+.mision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1em;
+    margin: 0 10% 0 0;
+
+}
+
+.mision__title{
+    font-family: 'Dancing Script', cursive;
+    flex-direction: row;
+    font-size: 1em;
+    margin: 0 0 0 10% ;
+
+}
+
+.vision__tittle{
+    font-family: 'Dancing Script', cursive;
+    flex-direction: row;
+    font-size: 1em;
+    padding: 0 20% 0 0;
+    
+
+    
+}
+
+.vision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1em;
+    margin: 0 10% 0 5%;
+
+}
+
+
+.imgcopa{
+    width: 100%; max-width: 30%;
+    margin-left: 5%;
+}
+
+.footer{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-color: #450223;
+    height: 15vh;
+}
+
+
+}
