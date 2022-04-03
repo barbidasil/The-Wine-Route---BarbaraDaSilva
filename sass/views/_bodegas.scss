@@ -1,0 +1,90 @@
+/******BODEGAS******/
+
+
+.container__grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+  }
+  
+
+.bodega__village{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    background-color: #faa0b1d2;
+    text-align: center;
+}
+
+.village__tittle{
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.village__texto{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.containerBodegas__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 0 0;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.barrilesMetal, .barrilesRoble{
+    width: 30%;
+}
+
+.bodega__cave{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.cave__tittle{
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.cave__texto{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+.containerBodegas__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 0 0;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.copaViñedoImg, .viñedoTorreImg{
+    width: 30%;
+}
+
+
+.footer__bodegas{
+    grid-column: 1/3;
+    background-color: #450223;
+    height: 15vh;
+}
+
+

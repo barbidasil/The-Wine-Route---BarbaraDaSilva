@@ -1,0 +1,167 @@
+  /*MEDIAS*/
+
+  @media screen and (max-width: 480px) {
+    
+    .container__grid3{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        width: 100%;
+    
+        }
+
+
+    .container__grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    
+    }
+
+.img__mision{
+    align-items:flex-end;
+    padding-right: 7.5%;
+    width: 100%; max-width: 50%;
+
+}
+
+.mision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1em;
+    margin: 0 10% 0 0;
+
+}
+
+.mision__title{
+    font-family: 'Dancing Script', cursive;
+    flex-direction: row;
+    font-size: 1em;
+    margin: 0 0 0 10% ;
+
+}
+
+.vision__tittle{
+    font-family: 'Dancing Script', cursive;
+    flex-direction: row;
+    font-size: 1em;
+    padding: 0 20% 0 0;
+    
+
+    
+}
+
+.vision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1em;
+    margin: 0 10% 0 5%;
+
+}
+
+
+.imgcopa{
+    width: 100%; max-width: 30%;
+    margin-left: 5%;
+}
+
+
+        
+      
+}
+
+@media screen and (max-width: 768px) {
+
+    .container__grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    
+    }
+
+
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .logo{
+        width: 20%;
+        margin-left: 20px;
+    }
+    
+    .navbar ul li {
+        
+        color: black;
+    }
+    
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1em;
+    }
+     
+    .navbar ul li{
+        margin: 0 20px;
+    }
+    
+    nav ul li:hover{
+        background-color: #cf8cae;
+    }
+    
+.img__mision{
+    align-items:flex-end;
+    padding-right: 7.5%;
+    width: 100%; max-width: 60%;
+
+}
+
+.mision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1em;
+    margin: 0 10% 0 0;
+
+}
+
+.mision__title{
+    font-family: 'Dancing Script', cursive;
+    flex-direction: row;
+    font-size: 1em;
+    margin: 0 0 0 10% ;
+
+}
+
+.vision__tittle{
+    font-family: 'Dancing Script', cursive;
+    flex-direction: row;
+    font-size: 1em;
+    padding: 0 20% 0 0;
+    
+
+    
+}
+
+.vision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1em;
+    margin: 0 10% 0 5%;
+
+}
+
+
+.imgcopa{
+    width: 100%; max-width: 30%;
+    margin-left: 5%;
+}
+
+
+
+}

@@ -1,0 +1,182 @@
+.mision__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    max-width: 1080px;
+    margin: 0 auto;
+  
+}
+
+.misionimg{
+    width: 150%;
+    
+}
+
+.img__mision{
+    align-items:flex-end;
+    padding-right: 7.5%;
+    width: 100%;
+
+}
+
+.mision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    margin: 0 30% 0 0;
+
+}
+
+.mision__title{
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+    margin: 0 0 0 10% ;
+
+}
+
+/*VISION*/
+
+.vision__container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: auto;
+    background-color: #faa0b1d2;
+}
+
+.vision__tittle{
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 3em;
+    
+
+    
+}
+
+.vision__text{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    margin: 0 20% 0 10%;
+
+}
+
+.imgcopa{
+    width: 20%;
+    margin-left: 5%;
+}
+
+ /****ABBOUT US STYLES****/
+
+ .navbar1 ul li {
+    
+    color: black;
+}
+
+.navbar1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+}
+ 
+.navbar1 ul li{
+    margin: 0 20px;
+}
+
+  
+
+    .container__vision{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    text-align: center;
+
+    }
+
+  .container__mision{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    text-align: center;
+  }
+
+.wineSun{
+    width: 40%;
+    align-self: center;
+}
+
+.container__vision{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    grid-column: 1/3;
+    background-color: #faa0b1d2;
+    text-align: center;
+}
+
+.imagen__vision{
+    width: 40%;
+    align-self: center;
+}
+
+.container__experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.sommelier{
+    width: 40%;
+    align-self: center;
+}
+
+.titulo__mision {
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.texto__mision {
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.titulo__vision{
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.texto__vision{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.titulo__experiencia {
+    font-family: 'Anton', sans-serif;
+    flex-direction: row;
+    font-size: 2em;
+}
+
+.texto__experiencia{
+    align-self: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
