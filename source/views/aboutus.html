@@ -6,33 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/logofavicon.png" type=image/x-icon*> <title>The Wine Route</title>
-    <link rel="stylesheet" href="../../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 
 <body>
 
     <section class="container__grid1">
 
-        <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
 
             <div class="logo">
-                <a href="index.html">
-                    <img src="../img/logo.png" alt="Logo Home" class="logo__home"></a>
+                <a href="../../index.html">
+                    <img src="../../source/img/logo.png" alt="Logo Home" class="logo__home"></a>
             </div>
-
-            <nav class="navbar1">
-                <ul>
-                    <ul>
-                        <li><a href="../../index.html">Inicio</a></li>
-                        <li><a href="./experiencias.html">Experiencias</a></li>
-                        <li><a href="./bodegas.html">Bodegas</a></li>
-                        <li><a href="./aboutus.html">Sobre Nosotros</a></li>
-                        <li><a href="./contacto.html">Contacto</a></li>
-                    </ul>
-                </ul>
-            </nav>
-        </header>
-
+    
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../../index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="./experiencias.html">Experiencias</a>
+                  <a class="nav-link" href="./bodegas.html">Bodegas</a>
+                  <a class="nav-link" href="./aboutus.html">Sobre Nosotros</a>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     <!-- termina barra de navegación del header con logo y debajo botones con imagen por debajo de los mismos -->
     <!-- Información sobre misión y visión con links a Sobre Nosotros -->
     
@@ -145,6 +149,8 @@
         </div>
     </footer>
 </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
