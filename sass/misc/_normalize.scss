@@ -10,11 +10,13 @@ html{
 }
 
 img{
-    width: 100%;
+    width: 40%;
 }
 
 a{
     text-decoration: none;
     font-family: 'Anton', sans-serif;
         color: black;
+        @extend .html
+
 }

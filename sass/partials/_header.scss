@@ -10,7 +10,7 @@ header{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        font-size: 2em;
+        font-size: 1.2em;
     }
      
     .navbar ul li{
@@ -24,10 +24,11 @@ header{
     
     
     
-     .logo{
-       width: 20%;
-        margin-left: 20px;
-     }
+    .logo__home{
+        width: 40%;
+         margin-left: 20px;
+
+      }
     
      .main{
          grid-column: 1/3;
